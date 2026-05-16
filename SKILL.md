@@ -1,5 +1,5 @@
 ---
-name: deep-research
+name: firefly-deep-research-skill
 description: 通用深度调研技能。当用户需要做调研、研究、竞品分析、市场分析、行业研究、技术选型、公司尽调、用户研究、人才/招聘调研、趋势前瞻、学术综述、写研究报告时触发。支持 8 大场景路由 + 1 个通用骨架，自动选择信源管道（中英文）和报告模板。Trigger when user asks for research, competitive analysis, market analysis, due diligence, tech evaluation, user research, talent research, trend analysis, literature review, or any deep investigation that requires multi-source synthesis with citations. 触发关键词包括（但不限于）："调研"、"研究"、"分析"、"对比"、"梳理"、"评估"、"尽调"、"竞品"、"市场"、"趋势"、"benchmark"、"research"、"investigate"、"analyze"、"compare"、"deep dive"、"landscape"。
 ---
 

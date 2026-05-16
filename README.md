@@ -1,4 +1,4 @@
-# Deep Research Skill 深度调研
+# Firefly Deep Research Skill 萤火深度调研
 
 A comprehensive deep-research skill for Claude Code that routes user research queries across **8 specialized scenarios + 1 generic skeleton**, applies a battle-tested 8-stage research pipeline, and produces decision-grade reports with bilingual (Chinese + English) source pipelines and automated citation validation.
 
@@ -21,7 +21,7 @@ Existing Claude skills do research either narrowly (single scenario like `compet
 ## What's inside / 包含什么
 
 ```
-deep-research/
+firefly-deep-research-skill/
 ├── SKILL.md                          # 主入口：场景路由 + 五原则 + 4 步工作流
 ├── methodology/                      # 跨场景共用方法论
 │   ├── pipeline.md                   #   8 阶段流水线
@@ -62,10 +62,10 @@ deep-research/
 
 ```bash
 # macOS / Linux
-git clone https://github.com/Jay-0807/deep-research-skill.git ~/.claude/skills/deep-research
+git clone https://github.com/Jay-0807/firefly-deep-research-skill.git ~/.claude/skills/firefly-deep-research-skill
 
 # Windows PowerShell
-git clone https://github.com/Jay-0807/deep-research-skill.git $HOME\.claude\skills\deep-research
+git clone https://github.com/Jay-0807/firefly-deep-research-skill.git $HOME\.claude\skills\firefly-deep-research-skill
 ```
 
 ### Option 2 — Project-level install
@@ -73,7 +73,7 @@ git clone https://github.com/Jay-0807/deep-research-skill.git $HOME\.claude\skil
 ```bash
 cd <your-project>
 mkdir -p .claude/skills
-git clone https://github.com/Jay-0807/deep-research-skill.git .claude/skills/deep-research
+git clone https://github.com/Jay-0807/firefly-deep-research-skill.git .claude/skills/firefly-deep-research-skill
 ```
 
 ### Optional — install Python deps for the validation scripts
@@ -101,7 +101,7 @@ Example prompts:
 - "深度尽调一下 Anthropic 这家公司"
 - "AI Agent 这个赛道未来 3 年的趋势"
 
-You can also explicitly invoke: *"用 deep-research 调研 X"*.
+You can also explicitly invoke: *"用 firefly-deep-research-skill 调研 X"*.
 
 ---
 
